@@ -40,5 +40,13 @@ Link de referência: https://product.hubspot.com/blog/git-and-github-tutorial-fo
 
 
 Configurar chave ssh: eval $(ssh-agent)
+
+Etapa 1: Verifique se possui chaves ssh cadastradas. Comando: ls -al ~/.ssh
+Etapa 2: Se não tiver chaves cadastradas crie uma. Comando: ssh-keygen -t ed25519 -C "seu@email.com". Crie sua frase da chave.
+Etapa 3: Adicione a chave ssh ao agente do git. Comandos: eval $(ssh-agent) e depois ssh-add /c/Users/<seu_user>/.ssh/id_ed25519.
+Etapa 4: Copie sua chave pública para adicionar ao GitHub. Comando: clip < ~/.ssh/id_ed25519.pub
+Etapa 5: Adicione sua chave ssh pública à sua conta no GitHub no menu Settings>SSH and GPG keys.
+Etapa 6: Altere o endereço do seu repositório de HTTPS para SSH. Comando: git remote set-url origin git@github.com:hellvini/teste.git
+
 Link Referência: https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh
 		 https://medium.com/@andgomes/git-github-evitando-informar-usu%C3%A1rio-e-senha-a-cada-push-para-o-github-d8edbb5c6de4
