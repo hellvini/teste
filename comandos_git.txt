@@ -1,0 +1,24 @@
+Etapa 1: criar um repositório local com Git
+- Abra o git bash e vá até a pasta que será o repositório local.
+- Digite o comando 'git init' para criar o repositório git.
+
+Etapa 2: Adicionar arquivos ao repo
+- Codifique seu projeto ou insira arquivos que deseje versionar.
+- O comando 'git status' ajuda a visualizar os arquvivos editados que o git identificou.
+
+Etapa 3: Adicionar um arquivo ao ambiente de teste
+- O versionamento ocorre com o commit, para adicionar arquivos ao pacote de commit, use o comando 'git add -A'.
+  Ou pode usar também o comando 'git add nome_do_arquivo'.
+
+Etapa 4: Criar um commit
+- Para versionar o código, ou seja, realizar o commit, use o comando: git commit -m "Mensagem sobre o commit".
+  Coloque uma mensagem objetiva para identificar bem o que foi commitado.
+
+Etapa 5: Criar uma nova branch
+- Quando é preciso alterar ou criar uma feature da branch principal, pode-se criar uma branch para não atuar
+  diretamente no projeto/branch principal. Depois é possível mesclar a branch nova com a principal.
+  Para criar e acessar uma nova branch use o comando: 'git checkout -b <my branch name>'. 
+  Use o comando 'git branch' para confirmar em qual branch está.
+
+Etapa 6: Crie um novo repositório no GitHub
+- Crie um repositório no GitHub
