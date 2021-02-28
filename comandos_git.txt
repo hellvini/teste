@@ -22,3 +22,6 @@ Etapa 5: Criar uma nova branch
 
 Etapa 6: Crie um novo repositório no GitHub
 - Crie um repositório no GitHub
+- Para subir os códigos da pasta local para o GitHub, use os comandos: 'git remote add origin <Link do seu repositório>.
+  Seguido do comando: git push -u origin master
+
