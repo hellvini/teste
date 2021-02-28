@@ -36,3 +36,5 @@ Etapa 10: Recupere as alterações do GitHub em seu computador
 
 
 Link de referência: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
+Configurar chave ssh
