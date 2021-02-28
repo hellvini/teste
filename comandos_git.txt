@@ -37,4 +37,8 @@ Etapa 10: Recupere as alterações do GitHub em seu computador
 
 Link de referência: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
 
+
+
 Configurar chave ssh: eval $(ssh-agent)
+Link Referência: https://docs.github.com/pt/github/authenticating-to-github/connecting-to-github-with-ssh
+		 https://medium.com/@andgomes/git-github-evitando-informar-usu%C3%A1rio-e-senha-a-cada-push-para-o-github-d8edbb5c6de4
